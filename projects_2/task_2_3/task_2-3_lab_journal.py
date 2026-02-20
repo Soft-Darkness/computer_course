@@ -4,7 +4,7 @@ experiment_name = input('Введите название эксперимент�
 experiment_number = (input('Введите номер эксперимента: '))
 experiment_conclusion = input('Введите вывод: ')
 border = '+' + '-'*60 + '+\n' # граница
-width = 60 # ширина таблицы
+width = 58 # ширина таблицы
 
 with open('journal.txt', 'a', encoding='utf-8') as journal:
     journal.write(border)
