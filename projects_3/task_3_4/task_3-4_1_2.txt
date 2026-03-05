@@ -1,4 +1,4 @@
-ls -lah / > ./task_3-4_1_2.txt
+echo -e "ls -lah / >> ./task_3-4_1_2.txt\n" > ./task_3-4_1_2.txt; ls -lah / >> ./task_3-4_1_2.txt
 
 итого 8,1G
 drwxr-xr-x  23 root root 4,0K фев  8 10:00 .
